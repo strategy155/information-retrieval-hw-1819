@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block title %}Fatal error{% endblock %}
+{% block body %}
+  <h1>Этого слова нет в модели</h1>
+  <p>Попробуйте другой запрос
+  <p><a href="{{ url_for('index') }}">return to index</a>
+{% endblock %}
